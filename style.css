@@ -1,8 +1,36 @@
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5cabd;
+}
+
+h2 {
+  color: #559198;
+  text-align: center;
+}
+
+#container {
+  width: 75vh;
+  height: 75vh;
+  margin: 2vh auto 2vh;
+}
+
 #board {
-  width: 650px;
-  height: 650px;
+  width: 100%;
+  height: 100%;
   display: grid;
-  border: 1px solid black;
+  border: 2px solid #559198;
+  margin: 2vh auto 2vh;
+}
+
+#board div {
+  margin: 0.5px;
+}
+
+.buttons {
+  text-align: center;
 }
 
 .item {
@@ -10,3 +38,4 @@
   font-size: 15px;
   text-align: center;
 }
+
