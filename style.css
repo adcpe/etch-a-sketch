@@ -14,14 +14,14 @@ h2 {
 #container {
   width: 75vh;
   height: 75vh;
-  margin: 2vh auto 2vh;
+  margin: 1vh auto 1vh;
 }
 
 #board {
   width: 100%;
   height: 100%;
   display: grid;
-  border: 2px solid #559198;
+  border: 0.5vh solid #559198;
   margin: 2vh auto 2vh;
 }
 
@@ -35,7 +35,5 @@ h2 {
 
 .item {
   background-color: white;
-  font-size: 15px;
-  text-align: center;
 }
 
