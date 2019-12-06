@@ -1,0 +1,12 @@
+#board {
+  width: 650px;
+  height: 650px;
+  display: grid;
+  border: 1px solid black;
+}
+
+.item {
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+}
