@@ -1,4 +1,4 @@
-let num = 64; // variable to store the grid value
+let num = 32; // variable to store the grid value
 const board = document.querySelector('#board');
 const title = document.querySelector('#title');
 
