@@ -37,10 +37,6 @@ h2 {
   margin: 2vh auto 2vh;
 }
 
-#board div {
-  margin: 0.5px;
-}
-
 .item {
   background-color: white;
 }
