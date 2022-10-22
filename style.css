@@ -3,11 +3,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d5cabd;
+  background-color: #161917;
 }
 
 h2 {
-  color: #559198;
+  color: #eb0e0f;
   text-align: center;
 }
 
@@ -33,11 +33,12 @@ h2 {
   width: 100%;
   height: 100%;
   display: grid;
-  border: 0.5vh solid #559198;
+  border: 1.5vh solid #eb0e0f;
+  border-radius: 9px;
+  background: #7f7f7f;
   margin: 2vh auto 2vh;
 }
 
 .item {
-  background-color: white;
+  background-color: #5b5e5c;
 }
-
